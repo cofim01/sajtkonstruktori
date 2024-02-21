@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .onama{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgb(19, 22, 114);
+    gap: 1rem;
+  }
+
+  .onama-h1{
+    text-shadow: 0 0 7px white;
+    text-shadow: 0 0 10px white;
+  }
+
+  .onama-box{
+    width: 50%;
+    height: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+    gap: 2rem;
+    position: relative;
+    border: 5px;
+    border-radius: 12px;
+    padding: 0.5rem;
+  }
+
+  .onama-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(45deg, rgb(0, 213, 213), rgb(8, 55, 199));
+    -webkit-mask: linear-gradient(rgb(255, 255, 255) 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  .onama-info{
+    width: 50%;
+    height: 10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+    gap: 2rem;
+    position: relative;
+    border: 5px;
+    border-radius: 12px;
+    padding: 0.5rem;
+    
+  }
+  .onamainfo-h3{
+    text-shadow: 0 0 7px white;
+    text-shadow: 0 0 10px white;
+  }
+
+  .onama-info::before {
+    
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(45deg, rgb(0, 213, 213), rgb(8, 55, 199));
+    -webkit-mask: linear-gradient(rgb(255, 255, 255) 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  @media screen and (max-width:600px) {
+    .onama-info{
+      width: 70%;
+    }
+  }

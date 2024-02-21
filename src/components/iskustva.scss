@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .iskustva{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgb(19, 22, 114);
+    gap: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .ljudi{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  img{
+    width:9rem;
+  }
+
+  .beretini{
+    width: 20rem;
+    height: 31rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    position: relative;
+    border: 5px;
+    border-radius: 12px;
+    padding: 0.5rem;
+  }
+  .beretini::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(45deg, rgb(0, 213, 213), rgb(8, 55, 199));
+    -webkit-mask: linear-gradient(rgb(255, 255, 255) 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  .milovan{
+    width: 20rem;
+    height: 31rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    position: relative;
+    border: 5px;
+    border-radius: 12px;
+    padding: 0.5rem;
+  }
+  .milovan::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(45deg, rgb(0, 213, 213), rgb(8, 55, 199));
+    -webkit-mask: linear-gradient(rgb(255, 255, 255) 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  .zena{
+    width: 20rem;
+    height: 31rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    position: relative;
+    border: 5px;
+    border-radius: 12px;
+    padding: 0.5rem;
+  }
+  .zena::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(45deg, rgb(0, 213, 213), rgb(8, 55, 199));
+    -webkit-mask: linear-gradient(rgb(255, 255, 255) 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  .ema{
+    width: 20rem;
+    height: 31rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    position: relative;
+    border: 5px;
+    border-radius: 12px;
+    padding: 0.5rem;
+  }
+  .ema::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(45deg, rgb(0, 213, 213), rgb(8, 55, 199));
+    -webkit-mask: linear-gradient(rgb(255, 255, 255) 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  .naslov{
+    text-shadow: 0 0 7px white;
+    text-shadow: 0 0 10px white;
+  }
+
+
+  @media  screen and (max-Width:1300px) 
+  {
+    .ljudi{
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
