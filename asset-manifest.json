@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/sajtkonstruktori1/static/css/main.635af088.css",
-    "main.js": "/sajtkonstruktori1/static/js/main.f9632afe.js",
-    "static/js/651.bb21f541.chunk.js": "/sajtkonstruktori1/static/js/651.bb21f541.chunk.js",
-    "static/media/ema.jpg": "/sajtkonstruktori1/static/media/ema.132948914b5e697a8842.jpg",
-    "static/media/beretini.jpeg": "/sajtkonstruktori1/static/media/beretini.a3c4e7c55caa2c66332d.jpeg",
-    "static/media/milovan.jpg": "/sajtkonstruktori1/static/media/milovan.c801b1a57e5105de4f7e.jpg",
-    "static/media/konstruktori.jpg": "/sajtkonstruktori1/static/media/konstruktori.f165e3e5b28d38775d8c.jpg",
-    "static/media/slika-zene.jpg": "/sajtkonstruktori1/static/media/slika-zene.bea6e9eab0bcf54f3d5f.jpg",
-    "index.html": "/sajtkonstruktori1/index.html",
-    "main.635af088.css.map": "/sajtkonstruktori1/static/css/main.635af088.css.map",
-    "main.f9632afe.js.map": "/sajtkonstruktori1/static/js/main.f9632afe.js.map",
-    "651.bb21f541.chunk.js.map": "/sajtkonstruktori1/static/js/651.bb21f541.chunk.js.map"
+    "main.css": "/sajtkonstruktori/static/css/main.635af088.css",
+    "main.js": "/sajtkonstruktori/static/js/main.d1bb2028.js",
+    "static/js/651.bb21f541.chunk.js": "/sajtkonstruktori/static/js/651.bb21f541.chunk.js",
+    "static/media/ema.jpg": "/sajtkonstruktori/static/media/ema.132948914b5e697a8842.jpg",
+    "static/media/beretini.jpeg": "/sajtkonstruktori/static/media/beretini.a3c4e7c55caa2c66332d.jpeg",
+    "static/media/milovan.jpg": "/sajtkonstruktori/static/media/milovan.c801b1a57e5105de4f7e.jpg",
+    "static/media/konstruktori.jpg": "/sajtkonstruktori/static/media/konstruktori.f165e3e5b28d38775d8c.jpg",
+    "static/media/slika-zene.jpg": "/sajtkonstruktori/static/media/slika-zene.bea6e9eab0bcf54f3d5f.jpg",
+    "index.html": "/sajtkonstruktori/index.html",
+    "main.635af088.css.map": "/sajtkonstruktori/static/css/main.635af088.css.map",
+    "main.d1bb2028.js.map": "/sajtkonstruktori/static/js/main.d1bb2028.js.map",
+    "651.bb21f541.chunk.js.map": "/sajtkonstruktori/static/js/651.bb21f541.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.635af088.css",
-    "static/js/main.f9632afe.js"
+    "static/js/main.d1bb2028.js"
   ]
 }
